@@ -1,11 +1,22 @@
-body{
+body {
     background-color: rgb(255, 255, 255);
 }
 
-.nav-link{
+.nav-link {
     font-size: 12px;
 }
 
 a:hover {
-    color:#007bff !important;
+    color: #007bff !important;
+}
+
+.gradient-text{
+    background: -moz-linear-gradient(0deg, #2380ff 0%, #52fdd9 50%);
+    background: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 50%);
+    background: -ms-linear-gradient(0deg, #2380ff 0%, #52fdd9 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 28px;
 }
