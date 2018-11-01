@@ -6,4 +6,6 @@ body{
     font-size: 12px;
 }
 
-
+a:hover {
+    color:#007bff !important;
+}
