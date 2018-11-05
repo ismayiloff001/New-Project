@@ -15,9 +15,9 @@
 
 <body>
   <!-- HEADER -->
-  <header class="shadow-lg">
+  <header class="shadow-lg fixed-top bg-white default-header position:fixed; top:0px;">
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light ml-4">
+      <nav class="navbar navbar-expand-lg navbar-light ml-5 mt-3">
         <a href="#home"></a>
         <img src="logolar.png.jpg">
 
@@ -58,14 +58,170 @@
             WE ARE THE TEAM
             <br>OF EXCELLENCE
           </h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore
+            et
             dolore magna aliqua.</br></p>
-            <div class="img-fluid" src="img/header-img.png"></div>
+            <a href="#" class=" list-group-item-action disabled"><div class="icons"><div class="img2">GET STARTED ><img src="not icon" alt=""></div></div></a>
+        </div>
+
+        <div class="col-lg-6 d-flex align-self-end img-right">
+          <img class="img fluid" src="header-img.png" alt>
+          <div>
+            <div>
+            </div>
+          </div>
+  </section>
+  </div>
+  <section class="banner-area section-gap" id="service">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="single-feature d-flex flex-row pb-30">
+            <div class="icon">
+              <span class="Inr Inr-rocket">
+
+              </span>
+            </div>
+            <div class="desc"> <h4 class="text-uppercase">24/7 EMERGENCY</h4>
+                <p>
+                  inappropriate behavior is often laughed off as boys will be boys,
+                  <br> women face higher conduct women face higher conduct.
+                </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="single-feature d-flex flex-row pb-30">
+          <div class="icon">
+            <span class="Inr Inr-chart-bars">
+            </span>
+          </div>
+          <div class="desc">
+            <h4 class="text-uppercase">X-Ray Service</h4>
+            <p>
+              inappropriate behavior is often laughed off as "boys will be boys,
+              <br> women face higher conduct women face higher conduct.
+            </p>
+          </div>
+        </div>
+
+        <div class="single-feature d-flex flex-row ">
+          <div class="icon">
+            <span class="Inr Inr-bug">
+            </span>
+          </div>
+          <div class="desc">
+            <h4 class="text-uppercase">INTENSIVE CARE</h4>
+            <p>
+              inappropriate behavior is often laughed off as "boys will be boys,
+              <br> women face higher conduct women face higher conduct.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="single-feature d-flex flex-row pb-30">
+            <div class="icon">
+              <span class="Inr Inr-heart-pulse">
+
+              </span>
+            </div>
+            <div class="desc"> <h4 class="text-uppercase">24/7 EMERGENCY<h4>
+                <p>
+                  inappropriate behavior is often laughed off as boys will be boys,
+                  <br> women face higher conduct women face higher conduct.
+                </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="single-feature d-flex flex-row pb-30">
+          <div class="icon">
+            <span class="Inr Inr-paw">
+            </span>
+          </div>
+          <div class="desc">
+            <h4 class="text-uppercase">X-Ray Service</h4>
+            <p>
+              inappropriate behavior is often laughed off as "boys will be boys,
+              <br> women face higher conduct women face higher conduct.
+            </p>
+          </div>
+        </div>
+
+        <div class="single-feature d-flex flex-row ">
+          <div class="icon">
+            <span class="Inr Inr-users">
+            </span>
+          </div>
+          <div class="desc">
+            <h4 class="text-uppercase">INTENSIVE CARE</h4>
+            <p>
+              inappropriate behavior is often laughed off as "boys will be boys,
+              <br> women face higher conduct women face higher conduct.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </section>
 
-</body>
+    <section class="about-area1" id="appoinment">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-end align-items-center">
+          <div class="col-lg-6 col-md-12 about-left no-padding">
+            <img class="img-fluid" src="about-img.jpg" alt>
+          </div>
+          <div class="col-lg-6 col-nd-12 about-right no padding bg-black">
+            <h1>
+              Book an
+              <br>
+              Appoinment
+            </h1>
+            <form class="booking-form" id="myForm" action="donate.php">
+              <div class="row">
+                <div class="col-lg-12 d-flex flex-column">
+                  <input name="name" placeholder="Patient name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Patient name'"
+                    class="form-control mt-20" required type="text">
+                </div>
 
-</html>
+                <div class="col-lg-6 d-flex flex-column">
+                  <input name="phone" placeholder="Phone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'"
+                    class="form-control mt-20" required type="text">
+                </div>
+
+                
+                <div class="col-lg-6 d-flex flex-column">
+                  <input name="phone" placeholder="Appoinment date" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Appoinment Date'"
+                    class="form-control mt-20" required type="text">
+                </div> 
+
+                <div class="col-lg-12 flex-column">
+                  <textarea class="form-control mt-20" name="message" placeholder="Messege" onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Messege'" required></textarea>
+                </div>
+                <div class="col-lg-12 d-flex justify-content-end send-btn">
+                  <a href="#" class=" list-group-item-action disabled"><div class="icont"><div class="img2">CONFIRM BOOKING ><img src="not icon" alt=""></div></div></a>
+                </div>
+                <div class="alert-msg"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="consultans-area section-gap" id="consultant">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-8 pb-80 header-text">
+            <h1>Our Consultants</h1>
+            <p>
+              
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+              
+              <br>
+              labore et dolere magne aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
