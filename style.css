@@ -60,19 +60,39 @@ a:hover {
     margin-top: 50px;
     font-size: 15px;
 }
-.about-area1{
-    background-color: black;
-}
 
 h1{
-    font-family: "Poppins", sans-serif;
-    color: white;
-    line-height: 1.2em !important;
-    margin-bottom: 0;
-    margin-top: 0;
-    font-weight: 600;
+    font-size: 18px;
 }
 
-.fas fa{
-    background-color: #52fdd9;
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container1 .row{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-sm{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.icon{
+    font-size: 40px;
+    font-weight: 300;
+    color: #777777;
+    height: 166.6666666667px;
+}
+
+
+.icon{
+    font-size: 40px;
+    font-weight: 300;
+    color: #777777;
+    height: 166.6666666667px;
 }
